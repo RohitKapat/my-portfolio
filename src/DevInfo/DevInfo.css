@@ -1,0 +1,71 @@
+.infoContainer{
+    /*background-color: black;*/
+    margin: 70px auto;
+    margin-bottom: 20px auto;
+    height: 78vh;
+    width: 80vw;
+    display:flex;
+    justify-content: space-around;
+    transition: 1.5s;
+
+}
+
+.devInfo p{
+    color: rgb(245, 242, 255);
+    font-size: 25px;
+    text-align: left;
+}
+
+
+.devInfo h2{
+    color:rgb(228, 198, 24);
+    font-size: 50px;
+    text-align: left;
+}
+
+.devInfo .Web{
+    font-size: 30px;
+}
+.devPic img{
+   height: 50vh;
+    justify-content: center;
+    border-radius: 50%;
+    padding: 10%;
+    align-items: end;
+    padding-top: 16%;
+}
+
+
+.devInfo{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.buttons{
+    text-align: left;
+}
+.buttons button{
+    padding: 20px;
+    border-radius: 50px;
+    color: rgb(1, 6, 11);
+    background-color:rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: bold;
+    font-size:x-large;
+    margin: 30px auto;
+    transition: 0.3s;
+
+}
+
+.buttons button:hover{
+    background-color:transparent ;
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.skill{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
